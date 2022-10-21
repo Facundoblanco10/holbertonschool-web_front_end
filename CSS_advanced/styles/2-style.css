@@ -11,9 +11,9 @@ a {
 a.visually-hidden {
     display: none;
 }
-a.card-category {
+*.card-category {
     color: #D73953;
 }
-a.section-tagline {
+*.section-tagline {
     color: #D73953;
 }
