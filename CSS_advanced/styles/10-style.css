@@ -23,7 +23,7 @@ a {
   color: var(--color-primary);
 }
 .section-header {
-  align-items: var(--section-header-align);
+  text-align: var(--section-header-align);
 }
 :root {
   --color-primary: #d73953;
