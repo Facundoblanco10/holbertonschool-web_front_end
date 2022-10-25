@@ -428,7 +428,7 @@ ul.row {
   height: 30rem;
   width: 100%;
   object-fit: cover;
-  top: bottom;
+  vertical-align: bottom;
 }
 .card-work .card-inner {
   position: absolute;
@@ -452,7 +452,7 @@ ul.row {
   text-decoration: none;
   padding-top: 45%;
 }
-.card-work::after {
+.card-work .card-title a::after {
   position: absolute;
   top: 0;
   right: 0;
