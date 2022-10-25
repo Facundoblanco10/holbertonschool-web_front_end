@@ -424,7 +424,7 @@ ul.row {
   position: relative;
   overflow: hidden;
 }
-.card-work .card-image {
+.card-work .card-image img {
   height: 30rem;
   width: 100%;
   object-fit: cover;
@@ -437,17 +437,17 @@ ul.row {
   right: -0.1rem;
   z-index: 1;
 }
-.card-inner:hover {
+.card-work:hover .card-inner {
   background-color: rgba(0, 0, 0, 0.7);
 }
 .card-work .card-title {
   text-align: center;
   margin: 0;
-  opacity: 0.2;
+  opacity: 0;
   height: 100%;
   position: relative;
 }
-.card-work .card-title a {
+.card-work .card-title a::after {
   display: block;
   text-decoration: none;
   padding-top: 45%;
